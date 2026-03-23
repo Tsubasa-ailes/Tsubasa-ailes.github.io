@@ -1,7 +1,7 @@
 # TACT - フットサルフォーメーションメーカー
 
 ## URL
-https://tsubasa-ailes.github.io
+https://tsubasa-ailes.github.io/tact/
 
 ## 概要
 フットサルのフォーメーションを作成できるWebアプリです。
