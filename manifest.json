@@ -1,0 +1,22 @@
+{
+  "name": "TACT",
+  "short_name": "TACT",
+  "description": "フットサルフォーメーションメーカー",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b7",
+  "theme_color": "#0b7",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "sport002.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "sport002.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

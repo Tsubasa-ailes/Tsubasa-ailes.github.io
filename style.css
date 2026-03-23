@@ -1,0 +1,137 @@
+body {
+  padding: 16px;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 4px 0 0;
+}
+
+.layout {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.section-title {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.players-title {
+  margin-top: 16px;
+}
+
+.players div {
+  margin-top: 6px;
+}
+
+.players input {
+  border: 1px solid #ccc;
+  padding: 6px;
+  width: 220px;
+}
+
+.court {
+  width: 320px;
+  height: 500px;
+  border: 2px solid #111;
+  border-radius: 12px;
+  position: relative;
+  background: #0b7;
+}
+
+.line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  background: #fff;
+  opacity: 0.8;
+}
+
+.circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+}
+
+.p {
+  position: absolute;
+  width: 80px;
+  padding: 6px 8px;
+  background: #fff;
+  border-radius: 999px;
+  text-align: center;
+  font-size: 12px;
+  transform: translate(-50%, -50%);
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+}
+
+.p.dragging {
+  cursor: grabbing;
+  z-index: 1000;
+}
+
+.pos-gk { left: 50%; top: 86%; }
+
+.pos-2 { left: 30%; top: 65%; }
+.pos-3 { left: 70%; top: 65%; }
+.pos-4 { left: 30%; top: 30%; }
+.pos-5 { left: 70%; top: 30%; }
+
+.pos-121-df  { left: 50%; top: 68%; }
+.pos-121-mf1 { left: 32%; top: 45%; }
+.pos-121-mf2 { left: 68%; top: 45%; }
+.pos-121-fw  { left: 50%; top: 23%; }
+
+.pos-31-df1 { left: 20%; top: 55%; }
+.pos-31-df2 { left: 50%; top: 55%; }
+.pos-31-df3 { left: 80%; top: 55%; }
+.pos-31-fw  { left: 50%; top: 23%; }
+
+.reset-btn {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border: 1px solid #333;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.export-btn {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border: 1px solid #333;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #333;
+  color: white;
+  transition: translateY(-1px);
+}
